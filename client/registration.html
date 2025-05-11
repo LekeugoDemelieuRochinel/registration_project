@@ -9,7 +9,7 @@
   </head>
   <body>
     <!-- here is just a simple project on register and login with html, javascript and css -->
-    <form action="registration.html">
+    <form action="registration.html" id="form">
       <header>
         <nav>
           <h1>Welcome to this registration form</h1>
@@ -24,20 +24,20 @@
       </header>
 
       <section>
-        <div class="Register">
+        <div id="register">
           <label for="name">your_Name</label>
-          <input type="text" name="" id="Input" placeholder="All Name" /><br />
+          <input type="text" name="" id="input_name" placeholder="All Name" /><br />
           <label for="email">you_Email</label>
-          <input type="email" name="" id="Input" placeholder="Email" /><br />
+          <input type="email" name="" id="input_email" placeholder="Email" /><br />
           <label for="password">you_pwssd</label>
           <input
             type="password"
             name=""
-            id="Input"
+            id="input_password"
             placeholder="password"
           /><br />
           <label for="submit">clik to Submit</label>
-          <input type="submit" name="" id="Input" placeholder="submit" />
+          <input type="submit" name="" id="Submit" placeholder="submit" />
         </div>
       </section>
 
@@ -51,15 +51,22 @@
           ></i
         >
       </p>
-      <a id="Login" href="client/login.html">login page</a>
+      
 
       <section>
-        <div></div>
+        <div class="contact">
+          <p>clik on this link below to see information about me </p>
+          <a id="Login" href="client/login.html"> Please clik here login page</a>
+          <a href=""></a>
+
+        </div>
       </section>
 
       <section>
         <footer></footer>
       </section>
     </form>
+
+    <script src="main.js"></script>
   </body>
 </html>
